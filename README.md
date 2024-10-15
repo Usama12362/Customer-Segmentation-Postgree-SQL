@@ -10,10 +10,14 @@ This project focuses on analyzing sales, customer, and product data to gain insi
 
 This table contains information about customers, including:
 
-customer_id: Unique identifier for each customer.
+customer_id: Unique identifier for each customer
+
 customer_name: Name of the customer.
+
 gender: Gender of the customer.
+
 age: Age of the customer.
+
 location: Location of the customer.
 
 ## Products Table
@@ -21,8 +25,11 @@ location: Location of the customer.
 This table stores product information such as:
 
 product_id: Unique identifier for each product.
+
 product_name: Name of the product.
+
 category: Category to which the product belongs.
+
 price: Price of the product.
 
 ## Stores Table
@@ -30,19 +37,28 @@ price: Price of the product.
 Contains data about the stores where sales take place:
 
 store_id: Unique identifier for each store.
+
 store_name: Name of the store.
+
 location: Location of the store.
+
 
 ## Sales Table
 
 This table records sales transactions, with the following columns:
 
 sale_id: Unique identifier for each sale.
+
 customer_id: Customer making the purchase.
+
 product_id: Product being purchased.
+
 store_id: Store where the sale took place.
+
 quantity: Number of units purchased.
+
 total_price: Total amount spent on the sale.
+
 sale_date: Date and time when the sale occurred.
 
 # SQL Queries and Business Insights
