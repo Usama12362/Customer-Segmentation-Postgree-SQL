@@ -31,7 +31,7 @@ CREATE TABLE Sales (
     store_id INT,
     quantity INT,
     total_price DECIMAL(10, 2),
-    sale_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+ 
   
 );
 
